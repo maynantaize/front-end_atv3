@@ -1,0 +1,87 @@
+/* Estilos para telas menores que 768 pixels */
+@media (max-width: 768px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #conteudo {
+        width: 100%;
+    }
+}
+
+/* Estilos para telas maiores que 768 pixels */
+@media (min-width: 768px) {
+    body {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    
+    #conteudo {
+        width: 750px;
+        margin: 0 auto;
+    }
+}
+
+/* Estilos comuns a todas as telas */
+#conteudo{
+    background-color: white;
+}
+body{
+    background-image: url(../img/bg.png);
+    margin: 0;
+}
+
+#foto1{
+    max-width: 100%;
+}
+#titulo{
+    color: orange;
+}
+.legenda1{
+    font-family: Verdana;
+    font-size: 12px;
+    color: chocolate;
+}
+#publi{
+    color: orange;
+}
+#historico{
+    color: orange;
+}
+#arma{
+    color: chocolate;
+}
+#tropa{
+    color: chocolate;
+}
+.legenda2{
+    font-family: Verdana;
+    font-size: 12px;
+    color: chocolate;
+}
+#men{
+    color: chocolate;
+}
+.legenda3{
+    font-family: Verdana;
+    font-size: 12px;
+    color: chocolate;
+}
+#info{
+    color: orange;
+}
+#poderes{
+    color: orange;
+}
+#regeneracao{
+    color: chocolate;
+}
+.legenda4{
+    font-family: Verdana;
+    font-size: 12px;
+    color: chocolate;
+}
+#sentidos{
+    color: chocolate;
+}
